@@ -28,10 +28,9 @@ var config = {
         }, {
             test: /\.html/,
             loader: 'raw-loader'
-        }, {
-            test: [/\.css$/],
-            exclude: /node_modules/,
-            loader: 'to-string-loader!css-loader'
+        }, { 
+            test: /\.less$/,
+            loader: 'style!css!less'
         }, {
             test: /\.(png|jpg|svg)$/,
             exclude: /node_modules/,
