@@ -1,0 +1,46 @@
+{
+  "name": "retain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --hot --progress"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@angular/common": "^2.0.0",
+    "@angular/compiler": "^2.0.0",
+    "@angular/core": "^2.0.0",
+    "@angular/forms": "^2.0.0",
+    "@angular/http": "^2.0.0",
+    "@angular/platform-browser": "^2.0.0",
+    "@angular/platform-browser-dynamic": "^2.0.0",
+    "@angular/router": "^3.0.0",
+    "bootstrap": "^3.3.7",
+    "bootstrap-webpack": "0.0.5",
+    "core-js": "^2.4.1",
+    "jquery": "^3.1.1",
+    "lodash": "^4.16.1",
+    "rxjs": "^5.0.0-beta.12",
+    "zone.js": "^0.6.25"
+  },
+  "devDependencies": {
+    "@types/core-js": "^0.9.33",
+    "@types/lodash": "^4.14.35",
+    "@types/node": "^6.0.39",
+    "awesome-typescript-loader": "^2.2.4",
+    "css-loader": "^0.25.0",
+    "file-loader": "^0.9.0",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "to-string-loader": "^1.1.4",
+    "ts-helpers": "^1.1.1",
+    "typescript": "^2.0.2",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1",
+    "html-webpack-plugin": "^2.22.0",
+    "less": "^2.7.1",
+    "less-loader": "^2.2.3"
+  }
+}
