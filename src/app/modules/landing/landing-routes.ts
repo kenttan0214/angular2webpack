@@ -1,7 +1,10 @@
-import { Routes } from '@angular/router';
+import { ModuleWithProviders }  from '@angular/core';
+import { Routes, RouterModule } from '@angular/router';
 import { LandingComponent } from './landing-components'
 
 // Route Configuration
-export const landingRoutes: Routes = [
+const landingRoutes: Routes = [
   { path: 'landing', component: LandingComponent }
 ];
+
+export const LandingRouting: ModuleWithProviders = RouterModule.forRoot(landingRoutes);
