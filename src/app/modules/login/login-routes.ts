@@ -3,5 +3,5 @@ import { LoginComponent } from './login-components'
 
 // Route Configuration
 export const loginRoutes: Routes = [
-  { path: '/login', component: LoginComponent }
+  { path: '', component: LoginComponent }
 ];
