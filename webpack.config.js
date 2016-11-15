@@ -101,14 +101,17 @@ var config = {
 
     resolve: {
         extensions: ['', '.ts', '.js', '.json'],
-        modulesDirectories: ['node_modules']
+        modulesDirectories: ['node_modules'],
+        alias: {
+            'style':  path.join(__dirname, 'src/app/assets/less')
+        }
     },
 
     devServer: {
         progress: true,
         hot: true,
         inline: false,
-        port: 9191,
+        port: 9900,
         contentBase: 'src',
         historyApiFallback: true,
         watchOptions: {
