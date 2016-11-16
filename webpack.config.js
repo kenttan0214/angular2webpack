@@ -27,7 +27,7 @@ var config = {
             loader: 'json-loader'
         }, {
             test: /\.html/,
-            loader: 'raw-loader'
+            loader: 'html-loader'
         }, { 
             test: /\.less$/,
             loader: 'style!css!less'
@@ -103,6 +103,7 @@ var config = {
         extensions: ['', '.ts', '.js', '.json'],
         modulesDirectories: ['node_modules'],
         alias: {
+			'assets': path.join(__dirname, 'src/app/assets'),
             'style':  path.join(__dirname, 'src/app/assets/less')
         }
     },
